@@ -1,0 +1,94 @@
+`Objective C`/`IOS`学习
+================================
+
+![Objective C](objective-c.png "Objective C")
+
+书籍
+----------------------
+
+### 入门
+
+#### `Objective C`语言
+
+- ***Programming in Objective-C (6th Edition)***   
+    这本优先从`Objective C`入门。本人是先看这本。
+- ***Objective-C Programming: The Big Nerd Ranch Guide (2nd Edition)***  
+    这本先讲`C`，再过渡到`Objective C`。
+
+学习一样的新事物，理解新事物的方式、风格和理念是非常重要的。  
+
+> 大家应该看过`C`程序员写的`Java`代码，或是`Java`程序员写的`C`代码。
+> 这样的代码，风格上一眼就能看出来。
+> 如果说风格是不重要的，这样与圈子不一致的风格反映对圈子理解得不深入，是可以推断出代码可信任度不高的。
+> 因为圈子里强调的风格中一致的部分实际上这个圈子里的老手去反复权衡思考传播的结果。
+
+个人推荐无论是否有`C`的基础都从第一本书开始看。
+如果觉得`C`的基础不够，可以以第二本作为辅助，`Objective C`主题的书能适度深度地讲解`C`。
+
+
+#### `iOS`开发
+
+- ***iOS Programming: The Big Nerd Ranch Guide (4th Edition)***
+- ***The Core iOS Developer's Cookbook (5th Edition)***
+- ***iOS 7 Programming Cookbook***
+
+### 深入
+
+#### `Objective C`语言
+
+- ***Pro Multithreading and Memory Management for iOS and OS X: with ARC, Grand Central Dispatch, and Blocks***
+- ***Effective Objective-C 2.0: 52 Specific Ways to Improve Your iOS and OS X Programs***
+
+`Objective C`是`C`的超级，即以`C`基础，或说在`C`上构建了`Objective C`的运行时。所以熟练使用`C`是标配。
+
+随手列几本`C`的经典：
+
+- `K&R`的 ***C程序设计语言***
+- ***C专家编程***
+- ***C陷阱与缺陷***  
+    PS：这本书很薄170页，定价30，一页的定价感觉远超这本书所在年份的平均～
+- ***C和指针***
+
+PS：
+
+- ***The C Preprocessor***  
+`C`的预处理器文档。实际上，平时只就会简单用用。  
+如一套代码可以分不同环境编译会用到`#ifdef`之类，可以了解一下，有备无患。
+
+#### `iOS`开发
+
+- ***iOS Components and Frameworks: Understanding the Advanced Features of the iOS SDK***
+- ***iOS Hacker's Handbook***
+- ***iOS Core Animation: Advanced Techniques***  
+
+另外，`iOS`开发是界面，有必要看些用户交互：
+
+- ***移动应用界面设计***
+- ***简约至上***
+
+#### 工程实践
+
+- ***Test-Driven iOS Development***
+
+写`UT`是软件工程实践的 **标配** ！  
+你懂得，用完即扔的脚本不在上面说的范围中。
+
+#### 设计级
+
+- ***Cocoa Design Patterns***
+
+设计往往是独立于语言的，可以过一下以了解`Objective C`下的风格。
+
+### PS
+
+上面的列的书都是`Amazon`上较新较热的，详见：  
+<http://www.amazon.com/s/ref=nb_sb_noss?url=node%3D5&field-keywords=objective+c>
+
+代码
+----------------------
+
+Read the fucking source code! 读靠谱的代码，学习模仿是获取精髓的好方法！  
+＃ 本人的目标是写`SDK`代码，会更关注`SDK`类的代码。
+
+- `AWS`的移动服务`iOS` `SDK`： https://github.com/aws/aws-sdk-ios/  
+    `AWS`移动服务介绍：http://aws.amazon.com/cn/mobile/
